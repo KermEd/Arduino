@@ -1,4 +1,10 @@
-#include <SPI.h> // We'll use SPI to transfer data. Faster!
+
+// Sources:
+// http://playground.arduino.cc/Code/PCD8544
+// http://dlnmh9ip6v2uc.cloudfront.net/datasheets/LCD/Monochrome/Nokia_5110_Example.pde
+// http://forum.arduino.cc/index.php?topic=176794.0
+
+#include <SPI.h> // We'll use SPI to transfer  data. Faster!
 
 #define PIN_SCE   7
 #define PIN_RESET 6
